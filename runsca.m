@@ -52,7 +52,7 @@ function comp = runsca(cfg, data)
 % 
 % When applying this function the following publication must be cited:
 % 
-% Haumann, N T; Hansen, Brian; Huotilainen, M; Vuust, P; Brattico, E;
+% Haumann, N T; Hansen, B; Huotilainen, M; Vuust, P; Brattico, E;
 % "Applying Stochastic Spike train theory for high-accuracy human MEG/EEG"
 % Journal of Neuroscience Methods (2020), doi: https://doi.org/10.1016/j.jneumeth.2020.108743
 % 
