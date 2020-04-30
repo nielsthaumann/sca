@@ -44,7 +44,8 @@ function comp = runsca(cfg, data)
 % cfg.layout              = is needed if components are shown or demo mode is on. Use the output of FT_PREPARE_LAYOUT as input
 % cfg.show_residuals      = also show residuals when components are shown or demo mode is on, 'yes' (default) or 'no'
 % 
-% 'Runsca' requires the Curve Fitting Toolbox to be installed for Gaussian or sine models. 
+% This version runs in the Matlab environment and requires the FieldTrip toolbox to be installed (see https://github.com/fieldtrip). 
+% 'Runsca' also requires the Curve Fitting Toolbox to be installed for Gaussian or sine models. 
 % For experimental comparison with gamma models, the Statistics and Machine Learning Toolbox needs to be installed. 
 % 
 % Beta version 20200430.
