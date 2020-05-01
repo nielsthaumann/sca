@@ -45,6 +45,7 @@ function comp = runsca(cfg, data)
 % cfg.show_residuals      = also show residuals when components are shown or demo mode is on, 'yes' (default) or 'no'
 % 
 % This version runs in the Matlab environment and requires the FieldTrip toolbox to be installed (see https://github.com/fieldtrip). 
+% For EEGLab users it is possible to apply the 'eeglab2fieldtrip' function to analyze data processed in EEGLab (https://github.com/fieldtrip/fieldtrip/blob/master/external/eeglab/eeglab2fieldtrip.m)
 % 'Runsca' also requires the Curve Fitting Toolbox to be installed for Gaussian or sine models. 
 % For experimental comparison with gamma models, the Statistics and Machine Learning Toolbox needs to be installed. 
 % 
