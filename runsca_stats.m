@@ -85,12 +85,6 @@ function data_scastats = runsca_stats(cfg, comps, data, standard)
 % Clinical Neurophysiology (2023), https://doi.org/10.1016/j.clinph.2023.01.015
 %
 
-%% TASKS:
-% 
-% 1) Verify the runsca_stats.m function on different data and Matlab versions
-%
-
-
 %% Prepare the input data and settings
 
 fprintf('\nRunning SCA statistics...\n\n')
