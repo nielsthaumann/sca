@@ -65,6 +65,8 @@ function data_hsac = runsca_hsac(cfg, comps, data, standard)
 % Clinical Neurophysiology (2021), https://doi.org/10.1016/j.clinph.2021.05.007
 %
 
+warning('It is recommended applying RUNSCA_STATS instead of RUNSCA_TM (see Haumann et al. (2023), "Mismatch negativity as a marker of music perception in individual cochlear implant users: A spike density component analysis study", Clinical Neurophysiology, https://doi.org/10.1016/j.clinph.2023.01.015).')
+
 %% Prepare settings
 
 % Verify required inputs are provided
