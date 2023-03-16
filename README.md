@@ -1,8 +1,11 @@
-Spike density component analysis (SCA) decomposes EEG or MEG waveforms into neural components 
-modeled with temporal probability density functions.
+--- High-accuracy MEG/EEG diagnostics with SCA ---
 
-Statistical thresholding of individual-level evoked responses measured with EEG or MEG
-can be performed to identify reliable reliable evoked response components.
+The accuracy of electroencephalography (EEG) and magnetoencephalography (MEG) is challenged by overlapping neural sources. 
+This lack of accuracy is a severe limitation to the application of MEG/EEG to clinical diagnostics. 
+As a solution, we here introduce a spike density component analysis (SCA) method for isolating specific neural sources.
+
+Spike density component analysis (SCA) decomposes EEG or MEG waveforms into neural components modeled with temporal probability density functions (use runsca.m).
+Statistical thresholding of individual-level evoked responses can be applied to identify reliable evoked response SCA components (use runsca_stats.m).
 
 For further information, please refer to: 
 
