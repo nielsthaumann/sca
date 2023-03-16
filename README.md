@@ -1,5 +1,8 @@
-Spike density component analysis decomposes EEG or MEG waveforms into neural components 
-modelled with temporal probability density functions.
+Spike density component analysis (SCA) decomposes EEG or MEG waveforms into neural components 
+modeled with temporal probability density functions.
+
+Statistical thresholding of individual-level evoked responses measured with EEG or MEG
+can be performed to identify reliable reliable evoked response components.
 
 For further information, please refer to: 
 
@@ -10,6 +13,10 @@ Journal of Neuroscience Methods (2020), doi: https://doi.org/10.1016/j.jneumeth.
 Bruzzone, S E P; Haumann, N T; Kliuchko, M; Vuust, P, Brattico, E;
 "Applying Spike-density Component Analysis for high-accuracy auditory event-related potentials in children",
 Clinical Neurophysiology (2021), https://doi.org/10.1016/j.clinph.2021.05.007
+
+Haumann, N T; Petersen, B; Friis Andersen, A S; Faulkner, K S; Brattico, E; Vuust, P;
+"Mismatch negativity as a marker of music perception in individual cochlear implant users: A spike density component analysis study",
+Clinical Neurophysiology (2023), https://doi.org/10.1016/j.clinph.2023.01.015
 
 This version of the SCA code runs in the Matlab environment and requires the FieldTrip toolbox to be installed (see https://github.com/fieldtrip). 
 For EEGLab users it is possible to apply the 'eeglab2fieldtrip' function to analyze data processed in EEGLab (https://github.com/fieldtrip/fieldtrip/blob/master/external/eeglab/eeglab2fieldtrip.m)
