@@ -29,6 +29,11 @@ function data_tm = runsca_tm(cfg, comps, template)
 %
 % For more information, see:
 %
+% Haumann, N T; Petersen, B; Friis Andersen, A S; Faulkner, K S; Brattico, E; Vuust, P;
+% "Mismatch negativity as a marker of music perception in individual cochlear implant users: 
+% A spike density component analysis study",
+% Clinical Neurophysiology (2023), https://doi.org/10.1016/j.clinph.2023.01.015
+% 
 % Bruzzone, S E P; Haumann, N T; Kliuchko, M; Vuust, P, Brattico, E;
 % "Applying Spike-density Component Analysis for high-accuracy auditory event-related potentials in children",
 % Clinical Neurophysiology (2021), https://doi.org/10.1016/j.clinph.2021.05.007
@@ -40,7 +45,7 @@ function data_tm = runsca_tm(cfg, comps, template)
 
 %% Prepare settings
 
-warning('It is recommended applying RUNSCA_HSAC instead of RUNSCA_TM (see Bruzzone et al. (2021), "Applying Spike-density Component Analysis for high-accuracy auditory event-related potentials in children", Clinical Neurophysiology, https://doi.org/10.1016/j.clinph.2021.05.007).')
+warning('It is recommended applying RUNSCA_STATS instead of RUNSCA_TM (see Haumann et al. (2023), "Mismatch negativity as a marker of music perception in individual cochlear implant users: A spike density component analysis study", Clinical Neurophysiology, https://doi.org/10.1016/j.clinph.2023.01.015).')
 
 % Verify required inputs are provided
 if nargin<3
