@@ -13,7 +13,7 @@ For further information, please refer to:
 
 Haumann, N T; Hansen, B; Huotilainen, M; Vuust, P; Brattico, E;
 <b>"Applying Stochastic Spike train theory for high-accuracy human MEG/EEG"</b>,
-Journal of Neuroscience Methods (2020), doi: https://doi.org/10.1016/j.jneumeth.2020.108743 
+Journal of Neuroscience Methods (2020), https://doi.org/10.1016/j.jneumeth.2020.108743 
 
 Bruzzone, S E P; Haumann, N T; Kliuchko, M; Vuust, P, Brattico, E;
 <b>"Applying Spike-density Component Analysis for high-accuracy auditory event-related potentials in children"</b>,
