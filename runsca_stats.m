@@ -47,8 +47,9 @@ function data_scastats = runsca_stats(cfg, comps, data, standard)
 % 
 % Visualization settings
 %
-% cfg.inspect        = visually inspect the SCA statistics results, true or false (default)
-% cfg.ncomps         = maximum number of SCA components to visualize (default is 15) (use inf to show all tested components)
+% cfg.showsteps      = visually inspect the steps in the SCA statistics procedure, true or false (default)
+% cfg.ncomps         = maximum number of SCA components to show when visualizing the steps in the SCA statistics procedure (default is 15) (use inf to show all tested SCA components)
+% cfg.showresult     = visually inspect the SCA statistics result, true or false (default)
 % cfg.layout         = is needed for inspecting the topographies. Use the output of FT_PREPARE_LAYOUT as input
 %
 % 
@@ -365,8 +366,11 @@ fprintf('\n')
 %% Visualize the SCA components to be tested statistically
 
 % Apply the default settings if no visualization settings are defined
-if ~isfield(cfg,'inspect') 
-    cfg.inspect = false; % Default setting is no inspection
+if ~isfield(cfg,'showsteps') 
+    cfg.showsteps = false; % Default setting is no inspection
+end
+if ~isfield(cfg,'showresult') 
+    cfg.showresult = false; % Default setting is no inspection
 end
 if ~isfield(cfg,'ncomps')
     cfg.ncomps = 15; % Default setting is 15
@@ -378,7 +382,7 @@ if ~isfield(cfg,'layout')
     cfg.layout = []; % Default is no layout provided
 end
 
-if cfg.inspect && ~isempty(roi_match)
+if cfg.showsteps && ~isempty(roi_match)
     
     % Prepare the required resolution of subplots for SCA component visualizations
     inspect_res = ceil(sqrt(cfg.ncomps)); 
@@ -465,7 +469,7 @@ end
 data_scastats = struct; 
 data_scastats.testedcomps = comps.label(roi_match)'; % Store the labels for the tested SCA components
 
-if cfg.inspect && ~isempty(roi_match)
+if cfg.showsteps && ~isempty(roi_match)
     
     % Prepare the required resolution of subplots for SCA component visualizations
     inspect_res = ceil(sqrt(min(cfg.ncomps,length(roi_match))+1)); % (+1 for a legend)
@@ -492,7 +496,7 @@ for i=1:length(roi_match)
     % Apply the spatiotemporal filter on the data matrix
     filtered_comp = sign(data_matrix.*component_filter) .* sqrt(abs(data_matrix.*component_filter)); % (channel, time, trial)
     
-    if cfg.inspect && i<=cfg.ncomps
+    if cfg.showsteps && i<=cfg.ncomps
         
         % Show the effects of suppresing interfering SCA components and their variance
         figure(spattempfilt)
@@ -554,7 +558,7 @@ for i=1:length(roi_match)
     sem = data_scastats.stdev(i) / ( sqrt(data_scastats.n_trials(i)) ); % Standard error of the mean
     data_scastats.ci_ratio(:,i) = mean(area_measure(i,:)) + t_thres * sem * [ +1 ; -1 ]; % Confidence interval ratio to mean amplitude
     
-    if cfg.inspect && i<=cfg.ncomps
+    if cfg.showsteps && i<=cfg.ncomps
         
         % Prepare showing asterisks symbol (*) if SCA component was significant
         if data_scastats.p_value_uncor(i)<cfg.p_thres
@@ -607,7 +611,7 @@ end
 
 clear('area_measure'); % Cleanup memory
 
-if cfg.inspect && ~isempty(roi_match)
+if cfg.showsteps && ~isempty(roi_match)
     
     % Add legend to the spatiotemporal SCA filter figure
     figure(spattempfilt)
@@ -666,26 +670,11 @@ else
     
 end
 
-if cfg.inspect && sum(data_scastats.significant_byfdr)>0
+if cfg.showsteps && sum(data_scastats.significant_byfdr)>0
     
-    if ~isempty(cfg.layout)
-        
-        % Show the individual statistically thresholded SCA components
-        cfg_inspect = struct;
-        cfg_inspect.layout = cfg.layout;
-        cfg_inspect.channel = roi_match(data_scastats.significant_byfdr);
-        cfg_inspect.viewmode = 'component';
-        cfg_inspect.zlim = 'maxabs';
-        evalc('ft_databrowser(cfg_inspect, comps)');
-        title('Separated statistically thresholded SCA components','fontsize',13)
-        clear('cfg_inspect'); % Cleanup memory
-        
-    else
-        warning('No channel layout was provided! Skipping plotting of separated statistically thresholded SCA components.')
-    end
+    % Show the Significant SCA components with confidence intervals
     
-    % Show the sum of the statistically thresholded SCA components
-    figure('name','Sum of statistically thresholded SCA components','color','w')
+    figure('name','Significant SCA components with confidence intervals','color','w')
     [~,peak_channel_index] = max(max(abs(data_scastats.avg),[],2),[],1);
     [~,time_sample_index] = max(abs(data_scastats.avg(peak_channel_index,:)));
     plot(data_scastats.time*1000, data_scastats.avg(peak_channel_index,:), 'k')
@@ -695,7 +684,7 @@ if cfg.inspect && sum(data_scastats.significant_byfdr)>0
     xlabel('Time (ms)','fontsize',13)
     ylabel(['Amplitude (peak channel: ',data_scastats.label{peak_channel_index},')'],'fontsize',13)
     set(gca,'fontsize',13)
-    title('Sum of statistically thresholded SCA components','interpreter','none','fontsize',13)
+    title('Significant SCA components with confidence intervals','interpreter','none','fontsize',13)
     if data_scastats.avg(peak_channel_index, time_sample_index)<0
         set(gca,'Ydir','reverse')
     end
@@ -706,6 +695,37 @@ if cfg.inspect && sum(data_scastats.significant_byfdr)>0
 end
 
 % Show the results of the SCA statistics
+
+if cfg.showresult && sum(data_scastats.significant_byfdr)>0
+    
+    if ~isempty(cfg.layout)
+        
+        % Show the individual statistically thresholded SCA components
+        fprintf('\nStarting ft_databrowser to show the individual statistically thresholded SCA components.\n')
+        cfg_inspect = struct;
+        cfg_inspect.layout = cfg.layout;
+        cfg_inspect.channel = roi_match(data_scastats.significant_byfdr);
+        cfg_inspect.viewmode = 'component';
+        cfg_inspect.zlim = 'maxabs';
+        evalc('ft_databrowser(cfg_inspect, comps)');
+        title('Separated statistically thresholded SCA components','fontsize',13)
+        
+        % Show the sum of the statistically thresholded SCA components
+        fprintf('\nStarting ft_multiplotER to show the sum of statistically thresholded SCA components.\n')
+        figure('name','Sum of statistically thresholded SCA components','color','w')
+        cfg_inspect = struct;
+        cfg_inspect.layout = cfg.layout;
+        evalc('ft_multiplotER(cfg_inspect, data_scastats)');
+        title('Sum of statistically thresholded SCA components','fontsize',13)
+        
+        clear('cfg_inspect'); % Cleanup memory
+        
+    else
+        warning('No channel layout was provided! Skipping plotting of separated statistically thresholded SCA components.')
+    end
+    
+end
+
 if sum(data_scastats.significant_byfdr)>0
     fprintf(['\n* Found significant SCA components at p<',num2str(cfg.p_thres),' after multiple testing correction.\n\n'])
 else
