@@ -9,7 +9,9 @@ Statistical thresholding of individual-level evoked responses can be applied to 
 
 </br>
 
-<center><image src="https://ars.els-cdn.com/content/image/1-s2.0-S138824572300024X-gr1.jpg"></center>
+<p align="center">
+  <image src="https://ars.els-cdn.com/content/image/1-s2.0-S138824572300024X-gr1.jpg">
+</p>
 Overview of the steps in the spike density component analysis (SCA) statistics procedure. (A) Single-participant EEG difference waveforms decomposed into neural activity with independent scalp distributions (left) and time-courses (right). (B) Constraining the peak electrodes, polarity, and latency reveals candidate MMN components. (C) The spatiotemporal filter (black color) efficiently focuses the across-trial EEG variance on an MMN candidate component to be statistically tested (interquartile range shown in shaded color; comparison to no filtering shown in blue color). (D) Across-trial amplitude histograms. (E) An automatic detection of an SCA component clearly representative of individual-level MMN (shown with shaded 99% confidence intervals uncorrected for multiple testing).
 (https://doi.org/10.1016/j.clinph.2023.01.015)
 </br></br>
