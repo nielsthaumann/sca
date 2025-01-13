@@ -330,9 +330,12 @@ end
 
 % Find components with matching peak channels and polarity
 if cfg.polarity == 0
-    [~,peak_channel_id] = max(abs(comps.topo),[],1);
+    peak_channel_id = [];
+    [~,peak_channel_id(:,1)] = min(comps.topo,[],1); % Peak amplitude that is negative...
+    [~,peak_channel_id(:,2)] = max(comps.topo,[],1); % or positive
+    peak_channel_id = unique(peak_channel_id);
 else
-    [~,peak_channel_id] = max(cfg.polarity*comps.topo,[],1);
+    [~,peak_channel_id] = max(cfg.polarity*comps.topo,[],1); % Peak amplitude of specified polarity
 end
 peak_channels = comps.topolabel(peak_channel_id);
 roi_match_peak_channel = find(ismember(peak_channels,cfg.channels));
