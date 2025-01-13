@@ -718,7 +718,7 @@ if cfg.showresult && sum(data_scastats.significant_byfdr)>0
         fprintf('\nStarting ft_databrowser to show the individual statistically thresholded SCA components.\n')
         cfg_inspect = struct;
         cfg_inspect.layout = cfg.layout;
-        cfg_inspect.channel = roi_match(data_scastats.significant_byfdr);
+        cfg_inspect.channel = roi_match(find(data_scastats.significant_byfdr));
         cfg_inspect.viewmode = 'component';
         cfg_inspect.zlim = 'maxabs';
         evalc('ft_databrowser(cfg_inspect, comps)');
