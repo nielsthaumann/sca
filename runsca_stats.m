@@ -76,7 +76,7 @@ function data_scastats = runsca_stats(cfg, comps, data, standard)
 % This function runs in the Matlab environment and requires the FieldTrip toolbox to be installed (see https://github.com/fieldtrip).
 %
 %
-% Beta version 20230316.
+% Beta version 20250113.
 %
 % When applying this function the following publication must be cited:
 %
@@ -467,7 +467,21 @@ end
 
 % Prepare the output
 data_scastats = struct; 
-data_scastats.testedcomps = comps.label(roi_match)'; % Store the labels for the tested SCA components
+data_scastats.testedcomps        = comps.label(roi_match)'; % Store the labels for the tested SCA components
+data_scastats.p_value_uncor      = [];
+data_scastats.mean               = [];
+data_scastats.stdev              = [];
+data_scastats.n_trials           = [];
+data_scastats.t_value            = [];
+data_scastats.ci_ratio           = [];
+data_scastats.significant_uncor  = [];
+data_scastats.significant_byfdr  = [];
+data_scastats.time               = [];
+data_scastats.avg                = [];
+data_scastats.label              = [];
+data_scastats.dimord             = [];
+data_scastats.ci_upper           = [];
+data_scastats.ci_lower           = [];
 
 if cfg.showsteps && ~isempty(roi_match)
     
