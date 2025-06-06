@@ -21,7 +21,7 @@ Statistical thresholding of individual-level evoked responses can be applied to 
 
 Statistical thresholding of individual-level evoked responses can also be performed with a more liberal half-split average consistency (SCA-HSAC) procedure [runsca_hsac](https://github.com/nielsthaumann/sca/blob/master/runsca_hsac.m) or a simple template match (SCA-TM) approach [runsca_tm](https://github.com/nielsthaumann/sca/blob/master/runsca_tm.m) . 
 <p align="center">
-  <image width="759" height="624" src="https://ars.els-cdn.com/content/image/1-s2.0-S1388245721005794-gr1.jpg">
+  <image width="759" height="624" src="https://github.com/nielsthaumann/sca/blob/master/sca-hsac.png">
 </p>
 <p align="center">
   <a href=https://doi.org/10.1016/j.clinph.2021.05.007> (Bruzzone, Haumann et al., 2021, "Applying Spike-density Component Analysis for <br>high-accuracy auditory event-related potentials in children",<i> Clinical Neurophysiology</i>)</br>
