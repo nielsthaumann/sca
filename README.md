@@ -13,14 +13,20 @@ Statistical thresholding of individual-level evoked responses can be applied to 
   <image width="510" height="1110" src="https://repository-images.githubusercontent.com/251616840/e1517d29-b7a4-40c2-8019-6f40f0fc85b1">
 </p>
 <i>Overview of the steps in the spike density component analysis (SCA) statistics procedure. (A) Single-participant EEG difference waveforms decomposed into neural activity with independent scalp distributions (left) and time-courses (right). (B) Constraining the peak electrodes, polarity, and latency reveals candidate MMN components. (C) The spatiotemporal filter (black color) efficiently focuses the across-trial EEG variance on an MMN candidate component to be statistically tested (interquartile range shown in shaded color; comparison to no filtering shown in blue color). (D) Across-trial amplitude histograms. (E) An automatic detection of an SCA component clearly representative of individual-level MMN (shown with shaded 99% confidence intervals uncorrected for multiple testing).</i>
-  [Haumann, et al. 2023, in <i>Clinical Neurophysiology (2023)</i>i>](https://doi.org/10.1016/j.clinph.2023.01.015)
+</br></br>
+<p align="center">
+  <a href=https://doi.org/10.1016/j.clinph.2023.01.015> (Haumann et al., 2023, "Mismatch negativity as a marker of music perception in individual cochlear implant users: <br>A spike density component analysis study",<i> Clinical Neurophysiology</i>)</br>
+  </a>
 </br></br>
 
 Statistical thresholding of individual-level evoked responses can also be performed with a more liberal half-split average consistency (SCA-HSAC) procedure [runsca_hsac](https://github.com/nielsthaumann/sca/blob/master/runsca_hsac.m) or a simple template match (SCA-TM) approach [runsca_tm](https://github.com/nielsthaumann/sca/blob/master/runsca_tm.m) . 
 <p align="center">
   <image width="759" height="624" src="https://ars.els-cdn.com/content/image/1-s2.0-S1388245721005794-gr1.jpg">
 </p>
-
+<p align="center">
+  <a href=https://doi.org/10.1016/j.clinph.2021.05.007> (Bruzzone, Haumann et al., 2021, "Applying Spike-density Component Analysis for <br>high-accuracy auditory event-related potentials in children",<i> Clinical Neurophysiology</i>)</br>
+  </a>
+</br></br>
 
 
 # For further information, please refer to: 
