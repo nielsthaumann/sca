@@ -16,7 +16,14 @@ Statistical thresholding of individual-level evoked responses can be applied to 
   (https://doi.org/10.1016/j.clinph.2023.01.015)
 </br></br>
 
-For further information, please refer to: 
+Statistical thresholding of individual-level evoked responses can also be performed with a more liberal half-split average consistency (SCA-HSAC) procedure or a simple template match (SCA-TM) approach. 
+<p align="center">
+  <image width="759" height="624" src="https://ars.els-cdn.com/content/image/1-s2.0-S1388245721005794-gr1.jpg">
+</p>
+
+
+
+# For further information, please refer to: 
 
 Haumann, N T; Hansen, B; Huotilainen, M; Vuust, P; Brattico, E;
 <b>"Applying Stochastic Spike train theory for high-accuracy human MEG/EEG"</b>,
