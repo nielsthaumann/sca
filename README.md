@@ -20,18 +20,13 @@ Statistical thresholding of individual-level evoked responses can be applied to 
 </br></br>
 
 Statistical thresholding of individual-level evoked responses can also be performed with a more liberal half-split average consistency (SCA-HSAC) procedure [runsca_hsac](https://github.com/nielsthaumann/sca/blob/master/runsca_hsac.m) or a simple template match (SCA-TM) approach [runsca_tm](https://github.com/nielsthaumann/sca/blob/master/runsca_tm.m) . 
-<p align="center">
-  <image width="759" height="624" src="https://github.com/nielsthaumann/sca/blob/master/sca-hsac.png">
-</p>
-<p align="center">
-  <a href=https://doi.org/10.1016/j.clinph.2021.05.007> (Bruzzone, Haumann et al., 2021, "Applying Spike-density Component Analysis for <br>high-accuracy auditory event-related potentials in children",<i> Clinical Neurophysiology</i>)</br>
-  </a>
+
 </br></br>
 
 
 # Explanation of the SCA algorithm
 
-Imagine the human brain as a megacity with ten million people all talking at once. EEG electrodes and MEG sensors would be like microphones set up outside the city walls, used to pick up a message from just one of the ten million people talking. 
+Imagine the human brain as a megacity with ten million people all signaling each other messages at once. EEG electrodes and MEG sensors would be like microphones set up outside the city walls, used to pick up a message from just one of the ten million people:
 <p align="center">
   <image width="563" height="353" src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40069-018-0319-7/MediaObjects/40069_2018_319_Fig1_HTML.png">
 </p>
@@ -39,9 +34,17 @@ Imagine the human brain as a megacity with ten million people all talking at onc
   <a href=https://doi.org/10.1186/s40069-018-0319-7> (Hwang et al., 2019. "Experimental verification of modal identification of a high-rise building using independent component analysis." <i>  International Journal of Concrete Structures and Materials</i>, 13, 1-15)</br>
   </a>
 </p>
+</br>
+Suppose some news breaks in the megacity. The exact time news reaches an individual is uncertain, but the arrival time varies systematically around a predicted time. Similarly, the images below show white flashes during the influx of Ca2+ ions at variable times of arrival, which are part of the signaling cascade that triggers the post-synaptic potentials in cortical brain regions measured with MEG/EEG:
 <br></br>
-Suppose some news breaks in the megacity: The exact time news reaches an individual is uncertain, but the arrival time varies in a systematic way around a predicted time point. 
-It turns out that the time course of an evoked response is accurately modeled by Gaussian densities. 
+
+![CaImAn Calcium Imaging Analysis 3-4](https://github.com/user-attachments/assets/0851bfa7-91fe-4fef-aa96-61e5eebda7a3)
+<p>
+  <a href=https://youtu.be/hs0TIO-8NWQ?si=rtYYkDvMJF_Oi1Sw> (Jérémie Kalfon. "A Computational toolbox for large scale Calcium Imaging Analysis* and behavioral analysis" </br>
+  </a>
+</p>
+<br></br>
+The large-scale neuronal electromagnetic activity measured with MEG/EEG is accurately modeled by temporal Gaussian density functions. 
 <br></br>
 <p align="center">
   <image width="563" height="819" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr1_lrg.jpg">
@@ -59,6 +62,8 @@ It turns out that the time course of an evoked response is accurately modeled by
   </a>
 </p>
 <br></br>
+
+
 
 # For further information, please refer to: 
 
