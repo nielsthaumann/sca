@@ -29,6 +29,21 @@ Statistical thresholding of individual-level evoked responses can also be perfor
 </br></br>
 
 
+# Explanation of the SCA algorithm
+
+Imagine the human brain as a megacity with ten million people all talking at once. EEG electrodes and MEG sensors would be like microphones set up outside the city walls, used to pick up a message from just one of the ten million people talking. 
+<p align="center">
+  <image width="750" height="470" src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40069-018-0319-7/MediaObjects/40069_2018_319_Fig1_HTML.png">
+</p>
+<p align="center">
+  <a href=https://doi.org/10.1186/s40069-018-0319-7> (Hwang et al., 2019. "Experimental verification of modal identification of a high-rise building using independent component analysis." <i>  International Journal of Concrete Structures and Materials</i>, 13, 1-15)</br>
+  </a>
+</p>
+Suppose some news breaks in the megacity: The exact time news reaches an individual is uncertain, but the arrival time varies in a systematic way around a predicted time point. 
+
+
+
+
 # For further information, please refer to: 
 
 Haumann, N T; Hansen, B; Huotilainen, M; Vuust, P; Brattico, E;
