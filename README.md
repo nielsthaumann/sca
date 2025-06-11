@@ -4,8 +4,9 @@ The accuracy of electroencephalography (EEG) and magnetoencephalography (MEG) is
 This lack of accuracy is a severe limitation to the application of MEG/EEG to clinical diagnostics. 
 As a solution, we here introduce a spike density component analysis (SCA) method for isolating specific neural sources.
 
-Spike density component analysis (SCA) decomposes EEG or MEG waveforms into neural components modeled with temporal probability density functions (with the <a href="https://github.com/nielsthaumann/sca/blob/master/runsca.m">runsca.m</a> function). 
-Statistical thresholding of individual-level evoked responses can be applied to identify reliable evoked response SCA components (with the <a href="https://github.com/nielsthaumann/sca/blob/master/runsca_stats.m">runsca_stats.m</a> function).
+Spike density component analysis (SCA) decomposes EEG or MEG waveforms into neural components modeled with temporal probability density functions (with the <a href="https://github.com/nielsthaumann/sca/blob/master/runsca.m">runsca.m</a> function). </br>
+Statistical thresholding of individual-level evoked responses can be applied to identify reliable evoked response SCA components (with the <a href="https://github.com/nielsthaumann/sca/blob/master/runsca_stats.m">runsca_stats.m</a> function). </br>
+Statistical thresholding of individual-level evoked responses can also be performed with a more liberal half-split average consistency (SCA-HSAC) procedure [runsca_hsac](https://github.com/nielsthaumann/sca/blob/master/runsca_hsac.m) or a simple template match (SCA-TM) approach [runsca_tm](https://github.com/nielsthaumann/sca/blob/master/runsca_tm.m) . 
 
 </br>
 
@@ -17,10 +18,6 @@ Statistical thresholding of individual-level evoked responses can be applied to 
 <p align="center">
   <a href=https://doi.org/10.1016/j.clinph.2023.01.015> (Haumann et al., 2023, "Mismatch negativity as a marker of music perception in individual cochlear implant users: <br>A spike density component analysis study",<i> Clinical Neurophysiology</i>)</br>
   </a>
-</br></br>
-
-Statistical thresholding of individual-level evoked responses can also be performed with a more liberal half-split average consistency (SCA-HSAC) procedure [runsca_hsac](https://github.com/nielsthaumann/sca/blob/master/runsca_hsac.m) or a simple template match (SCA-TM) approach [runsca_tm](https://github.com/nielsthaumann/sca/blob/master/runsca_tm.m) . 
-
 </br></br>
 
 
@@ -44,7 +41,7 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
   </a>
 </p>
 <br></br>
-The large-scale neuronal electromagnetic activity measured with MEG/EEG is accurately modeled by temporal Gaussian density functions. 
+It turns out that the large-scale neuronal electromagnetic activity measured with MEG/EEG is accurately modeled by temporal Gaussian density functions: 
 <br></br>
 <p align="center">
   <image width="563" height="819" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr1_lrg.jpg">
