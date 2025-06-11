@@ -33,16 +33,32 @@ Statistical thresholding of individual-level evoked responses can also be perfor
 
 Imagine the human brain as a megacity with ten million people all talking at once. EEG electrodes and MEG sensors would be like microphones set up outside the city walls, used to pick up a message from just one of the ten million people talking. 
 <p align="center">
-  <image width="750" height="470" src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40069-018-0319-7/MediaObjects/40069_2018_319_Fig1_HTML.png">
+  <image width="563" height="353" src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40069-018-0319-7/MediaObjects/40069_2018_319_Fig1_HTML.png">
 </p>
 <p align="center">
   <a href=https://doi.org/10.1186/s40069-018-0319-7> (Hwang et al., 2019. "Experimental verification of modal identification of a high-rise building using independent component analysis." <i>  International Journal of Concrete Structures and Materials</i>, 13, 1-15)</br>
   </a>
 </p>
+<br></br>
 Suppose some news breaks in the megacity: The exact time news reaches an individual is uncertain, but the arrival time varies in a systematic way around a predicted time point. 
-
-
-
+It turns out that the time course of an evoked response is accurately modeled by Gaussian densities. 
+<br></br>
+<p align="center">
+  <image width="563" height="819" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr1_lrg.jpg">
+</p>
+<br></br>
+<p align="center">
+  <image width="750" height="772" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr3.jpg">
+</p>
+<br></br>
+<p align="center">
+  <image width="750" height="772" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr10_lrg.jpg">
+</p>
+<p align="center">
+  <a href=https://doi.org/10.1016/j.jneumeth.2020.108743> (Haumann et al., 2020, "Applying Stochastic Spike train theory for high-accuracy human MEG/EEG",<i> Journal of Neuroscience Methods</i>)</br>
+  </a>
+</p>
+<br></br>
 
 # For further information, please refer to: 
 
