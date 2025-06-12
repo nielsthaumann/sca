@@ -33,7 +33,7 @@ Imagine the human brain as a megacity with ten million people all signaling each
 </p>
 </br>
 Suppose some news breaks in the megacity. The exact time news reaches an individual is uncertain, but the arrival time varies systematically around a predicted time. </br>
-    Similarly, the images below show white flashes at variable times of arrival during the influx of Ca2+ ions after 'neuronal spiking' potentials have pushed out Na+ ions of neuron cell bodies as part of the electrochemical signaling cascade:
+    Similarly, the images below show white flashes at variable times of arrival during the influx of Ca2+ ions after 'neuronal spiking' potentials have pushed out Na+ ions of neuron cell bodies as part of the electrochemical signaling cascade in the brain:
 <br></br>
 
 ![CaImAn Calcium Imaging Analysis 3-4](https://github.com/user-attachments/assets/0851bfa7-91fe-4fef-aa96-61e5eebda7a3)
