@@ -52,7 +52,7 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
 </p>
 <br></br>
 A popular assumption is that brain activity measured with MEG/EEG is shaped as ideal sine waves. However, in line with the observations of systematic noise in the timing of 'neuronal spiking', it turns out that the large-scale neuronal electromagnetic activity measured with MEG/EEG is accurately modeled by temporal Gaussian density functions with systematic noise. </br>
-SCA enables the accurate analysis of evoked responses (ER) and the suppression of interfering brain activity by leveraging the discovery of the temporal Gaussian shape of brain activity measured with MEG/EEG: 
+SCA enables the accurate analysis of evoked responses (ER) and the suppression of interfering brain activity by leveraging the discovery of the temporal Gaussian shape with systematic noise of brain activity measured with MEG/EEG: 
 <br></br>
 <p align="center">
   <image width="563" height="819" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr1_lrg.jpg">
