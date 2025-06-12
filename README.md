@@ -32,7 +32,7 @@ Imagine the human brain as a megacity with ten million people all signaling each
   </a>
 </p>
 </br>
-Suppose some news breaks in the megacity. The exact time news reaches an individual is uncertain, but the arrival time varies systematically around a predicted time. Similarly, the images below show white flashes at variable times of arrival during the influx of Ca2+ ions after 'spike' potentials pushes out Na+ ions of the neuronal cell bodies. The "spike" potentials that precedes the influx of Ca2+ ions is a part of the electrochemical signaling cascade that triggers post-synaptic potentials. The post-synaptic potentials are the main contributors to the evoked responses measured with MEG/EEG:
+Suppose some news breaks in the megacity. The exact time news reaches an individual is uncertain, but the arrival time varies systematically around a predicted time. Similarly, the images below show white flashes at variable times of arrival during the influx of Ca2+ ions after 'spike' potentials have pushed out Na+ ions of the neuronal cell bodies. The "spike" potentials that precede the influx of Ca2+ ions are a part of the electrochemical signaling cascade that triggers post-synaptic potentials. The post-synaptic potentials are the main contributors to the evoked responses measured with MEG/EEG:
 <br></br>
 
 ![CaImAn Calcium Imaging Analysis 3-4](https://github.com/user-attachments/assets/0851bfa7-91fe-4fef-aa96-61e5eebda7a3)
