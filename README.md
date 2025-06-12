@@ -32,7 +32,7 @@ Imagine the human brain as a megacity with ten million people all signaling each
   </a>
 </p>
 </br>
-Suppose some news breaks in the megacity. The exact time news reaches an individual is uncertain, but the arrival time varies systematically around a predicted time. Similarly, the images below show white flashes during the influx of Ca2+ ions at variable times of arrival, which are part of the signaling cascade that triggers the post-synaptic potentials in cortical brain regions measured with MEG/EEG:
+Suppose some news breaks in the megacity. The exact time news reaches an individual is uncertain, but the arrival time varies systematically around a predicted time. Similarly, the images below show white flashes at variable times of arrival during the influx of Ca2+ ions after 'spike' potentials pushes out Na+ ions of the neuronal cell bodies. The "spike" potentials that precedes the influx of Ca2+ ions is a part of the electrochemical signaling cascade that triggers post-synaptic potentials. The post-synaptic potentials are the main contributors to the evoked responses measured with MEG/EEG:
 <br></br>
 
 ![CaImAn Calcium Imaging Analysis 3-4](https://github.com/user-attachments/assets/0851bfa7-91fe-4fef-aa96-61e5eebda7a3)
@@ -40,8 +40,14 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
   <a href=https://youtu.be/hs0TIO-8NWQ?si=rtYYkDvMJF_Oi1Sw> (Jérémie Kalfon. "A Computational toolbox for large scale Calcium Imaging Analysis* and behavioral analysis" </br>
   </a>
 </p>
+<p align="left">
+  <image width="563" height="482" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/SimulationNeuralOscillations.png">
+   </br>
+  <a href=https://en.wikipedia.org/wiki/Neural_oscillation#/media/File:SimulationNeuralOscillations.png> (TjerdB. "Neuronal spiking (firing of neurons) is simulated by a rate-modulated Poisson process (upper panel). Local field potential is simulated by the low-pass filterd sum of a number of these processes, representing the mean activity of a large number of neurons (lower panel)." </br>
+</a>
+</p>
 <br></br>
-It turns out that the large-scale neuronal electromagnetic activity measured with MEG/EEG is accurately modeled by temporal Gaussian density functions. The SCA modeling approach makes it possible to suppress the ongoing interfering signals from the signal of interest: 
+In line with the observations of systematic noise in the timing of "spike" potentials that are part of the signaling cascade influencing MEG/EEG measurements, it turns out that the large-scale neuronal electromagnetic activity measured with MEG/EEG outside the head is accurately modeled by temporal Gaussian density functions with systematic noise in 'bell-shaped tails', and not ideally shaped sinusoidal waveforms as popularly assumed. The accurate SCA modeling approach enables the suppression of ongoing interfering signals from the evoked responses of interest: 
 <br></br>
 <p align="center">
   <image width="563" height="819" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr1_lrg.jpg">
