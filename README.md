@@ -46,7 +46,7 @@ The 'spike' potentials and the influx of Ca2+ ions are a part of the electrochem
 <p align="left">
   <image width="563" height="482" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/SimulationNeuralOscillations.png">
    </br>
-  <a href=https://en.wikipedia.org/wiki/Neural_oscillation#/media/File:SimulationNeuralOscillations.png> (TjerdB. "Neuronal spiking (firing of neurons) is simulated by a rate-modulated Poisson process (upper panel). Local field potential is simulated by the low-pass filterd sum of a number of these processes, representing the mean activity of a large number of neurons (lower panel)." </br>
+  <a href=https://en.wikipedia.org/wiki/Neural_oscillation#/media/File:SimulationNeuralOscillations.png> (TjerdB. "Neuronal spiking (firing of neurons) is simulated by a rate-modulated Poisson process (upper panel). Local field potential is simulated by the low-pass filtered sum of a number of these processes, representing the mean activity of a large number of neurons (lower panel)." </br>
 </a>
 </p>
 <br></br>
