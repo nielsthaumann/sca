@@ -79,17 +79,17 @@ SCA enables the accurate analysis of evoked responses (ER) and the suppression o
 
 # For further information, please refer to: 
 
-Haumann, N T; Hansen, B; Huotilainen, M; Vuust, P; Brattico, E;
+Haumann, N T; Hansen, B; Huotilainen, M; Vuust, P; Brattico, E; (2020)
 <b>"Applying Stochastic Spike train theory for high-accuracy human MEG/EEG"</b>,
-Journal of Neuroscience Methods (2020), https://doi.org/10.1016/j.jneumeth.2020.108743 
+Journal of Neuroscience Methods, https://doi.org/10.1016/j.jneumeth.2020.108743 
 
-Bruzzone, S E P; Haumann, N T; Kliuchko, M; Vuust, P, Brattico, E;
+Bruzzone, S E P; Haumann, N T; Kliuchko, M; Vuust, P, Brattico, E; (2021)
 <b>"Applying Spike-density Component Analysis for high-accuracy auditory event-related potentials in children"</b>,
-Clinical Neurophysiology (2021), https://doi.org/10.1016/j.clinph.2021.05.007
+Clinical Neurophysiology, https://doi.org/10.1016/j.clinph.2021.05.007
 
-Haumann, N T; Petersen, B; Friis Andersen, A S; Faulkner, K S; Brattico, E; Vuust, P;
+Haumann, N T; Petersen, B; Friis Andersen, A S; Faulkner, K S; Brattico, E; Vuust, P; (2023)
 <b>"Mismatch negativity as a marker of music perception in individual cochlear implant users: A spike density component analysis study"</b>,
-Clinical Neurophysiology (2023), https://doi.org/10.1016/j.clinph.2023.01.015
+Clinical Neurophysiology, https://doi.org/10.1016/j.clinph.2023.01.015
 
 Haumann, N. T., Petersen, B., Seeberg, A. B., Vuust, P., & Brattico, E. (2025). <b>"It takes experience to tango: Experienced cochlear implant users show cortical evoked potentials to naturalistic music",</b>bioRxiv. https://doi.org/10.1101/2025.06.04.657805
 
