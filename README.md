@@ -51,7 +51,7 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
 </a>
 </p>
 <br></br>
-A popular assumption is that brain activity measured with MEG/EEG is shaped as ideal sine waves. However, in line with the observations of systematic noise in the timing of 'neuronal spiking' potentials that are part of the signaling cascade influencing MEG/EEG measurements, it turns out that the large-scale neuronal electromagnetic activity measured with MEG/EEG is accurately modeled by temporal Gaussian noise density functions. The accurate SCA modeling with Gaussian noise density functions enables the suppression of ongoing interfering signals from the evoked responses (ER) of interest: 
+A popular assumption is that brain activity measured with MEG/EEG is shaped as ideal sine waves. However, in line with the observations of systematic noise in the timing of 'neuronal spiking' potentials that are part of the signaling cascade influencing MEG/EEG measurements, it turns out that the large-scale neuronal electromagnetic activity measured with MEG/EEG is accurately modeled by temporal Gaussian density functions with noisy distributed in 'bell-shaped tails'. The accurate SCA modeling with Gaussian noise density functions enables the suppression of ongoing interfering signals from the evoked responses (ER) of interest: 
 <br></br>
 <p align="center">
   <image width="563" height="819" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr1_lrg.jpg">
