@@ -42,7 +42,7 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
   </a>
 </p>
 <br></br>
-'Neuronal spiking' with systematic noise and influx of Ca2+ ions are a part of the electrochemical signaling cascade, where neurons trigger a post-synaptic 'local field potential' in a receiving neuron. The post-synaptic 'local field potential' from a large number (>10,000) of neurons in a network are the main contributors to the brain activity measured with MEG/EEG: 
+'Neuronal spiking' with systematic noise and influx of Ca2+ ions are a part of the electrochemical signaling cascade, where neurons trigger a post-synaptic 'local field potentials' in receiving neurons. The post-synaptic 'local field potentials' from a large number (>10,000) of neurons are the main contributors to the brain activity measured with MEG/EEG: 
 <br></br>
 <p align="left">
   <image width="563" height="482" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/SimulationNeuralOscillations.png">
