@@ -63,11 +63,7 @@ SCA enables the accurate analysis of evoked responses (ER) and the suppression o
 </p>
 <br></br>
 <p align="center">
-  <image width="750" height="772" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr3.jpg">
-</p>
-<br></br>
-<p align="center">
-  <image width="750" height="772" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr10_lrg.jpg">
+  <image width="750" height="714" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr6_lrg.jpg">
 </p>
 <p align="center">
   <a href=https://doi.org/10.1016/j.jneumeth.2020.108743> (Haumann et al., 2020, "Applying Stochastic Spike train theory for high-accuracy human MEG/EEG",<i> Journal of Neuroscience Methods</i>)</br>
