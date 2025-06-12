@@ -42,7 +42,7 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
   </a>
 </p>
 <br></br>
-The 'spike' potentials and the influx of Ca2+ ions are a part of the electrochemical signaling cascade that triggers post-synaptic potentials. The post-synaptic potentials are the main contributors to the evoked responses measured with MEG/EEG:
+The systematic noise in the timing of 'spike' potentials and the influx of Ca2+ ions are a part of the electrochemical signaling cascade that triggers post-synaptic potentials. The post-synaptic potentials are the main contributors to the evoked responses measured with MEG/EEG:
 <p align="left">
   <image width="563" height="482" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/SimulationNeuralOscillations.png">
    </br>
