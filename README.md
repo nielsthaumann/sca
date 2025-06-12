@@ -41,7 +41,7 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
   </a>
 </p>
 <br></br>
-It turns out that the large-scale neuronal electromagnetic activity measured with MEG/EEG is accurately modeled by temporal Gaussian density functions: 
+It turns out that the large-scale neuronal electromagnetic activity measured with MEG/EEG is accurately modeled by temporal Gaussian density functions. The SCA modeling approach makes it possible to suppress the ongoing interfering signals from the signal of interest: 
 <br></br>
 <p align="center">
   <image width="563" height="819" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr1_lrg.jpg">
