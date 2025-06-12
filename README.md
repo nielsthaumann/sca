@@ -81,7 +81,7 @@ SCA enables the accurate analysis of evoked responses (ER) and the suppression o
 
 Haumann, N T; Hansen, B; Huotilainen, M; Vuust, P; Brattico, E; (2020)
 <b>"Applying Stochastic Spike train theory for high-accuracy human MEG/EEG"</b>,
-Journal of Neuroscience Methods, https://doi.org/10.1016/j.jneumeth.2020.108743 
+Journal of Neuroscience Methods, https://doi.org/10.1016/j.jneumeth.2020.108743
 
 Bruzzone, S E P; Haumann, N T; Kliuchko, M; Vuust, P, Brattico, E; (2021)
 <b>"Applying Spike-density Component Analysis for high-accuracy auditory event-related potentials in children"</b>,
