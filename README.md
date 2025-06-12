@@ -38,7 +38,7 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
 
 ![CaImAn Calcium Imaging Analysis 3-4](https://github.com/user-attachments/assets/0851bfa7-91fe-4fef-aa96-61e5eebda7a3)
 <p>
-  <a href=https://youtu.be/hs0TIO-8NWQ?si=rtYYkDvMJF_Oi1Sw> (Jérémie Kalfon. "A Computational toolbox for large scale Calcium Imaging Analysis* and behavioral analysis" </br>
+  <a href=https://youtu.be/hs0TIO-8NWQ?si=rtYYkDvMJF_Oi1Sw> (Jérémie Kalfon. "A Computational toolbox for large scale Calcium Imaging Analysis* and behavioral analysis", Youtube) </br>
   </a>
 </p>
 <br></br>
@@ -47,7 +47,7 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
 <p align="left">
   <image width="563" height="482" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/SimulationNeuralOscillations.png">
    </br>
-  <a href=https://en.wikipedia.org/wiki/Neural_oscillation#/media/File:SimulationNeuralOscillations.png> (TjeerdB. "Neuronal spiking (firing of neurons) is simulated by a rate-modulated Poisson process (upper panel). Local field potential is simulated by the low-pass filtered sum of a number of these processes, representing the mean activity of a large number of neurons (lower panel)." </br>
+  <a href=https://commons.wikimedia.org/wiki/File:SimulationNeuralOscillations.png> (TjeerdB. "Neuronal spiking (firing of neurons) is simulated by a rate-modulated Poisson process (upper panel). Local field potential is simulated by the low-pass filtered sum of a number of these processes, representing the mean activity of a large number of neurons (lower panel).", Wikimedia Commons) </br>
 </a>
 </p>
 <br></br>
