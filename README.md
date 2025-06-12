@@ -55,6 +55,10 @@ A popular assumption is that brain activity measured with MEG/EEG is shaped as i
 SCA enables the accurate analysis of evoked responses (ER) and the suppression of interfering brain activity by leveraging the discovery of the systematic Gaussian noise in the timing of the brain activity measured with MEG/EEG: 
 <br></br>
 <p align="center">
+  <image width="563" height="422" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr2_lrg.jpg">
+</p>
+<br></br>
+<p align="center">
   <image width="563" height="819" src="https://ars.els-cdn.com/content/image/1-s2.0-S0165027020301667-gr1_lrg.jpg">
 </p>
 <br></br>
