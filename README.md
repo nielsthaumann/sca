@@ -41,7 +41,8 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
   <a href=https://youtu.be/hs0TIO-8NWQ?si=rtYYkDvMJF_Oi1Sw> (Jérémie Kalfon. "A Computational toolbox for large scale Calcium Imaging Analysis* and behavioral analysis", <i>Youtube</i>) </br>
   </a>
 </p>
-<br></br>
+</br>
+
 'Neuronal spiking' with systematic noise and influx of Ca2+ ions are a part of the electrochemical signaling cascade, where neurons trigger post-synaptic 'local field potentials' in neurons that receive a message. The post-synaptic 'local field potentials' from a large number (>10,000) of neurons are the main contributors to the brain activity measured with MEG/EEG: 
 <br></br>
 <p align="left">
@@ -50,7 +51,7 @@ Suppose some news breaks in the megacity. The exact time news reaches an individ
   <a href=https://commons.wikimedia.org/wiki/File:SimulationNeuralOscillations.png> (TjeerdB. "Neuronal spiking (firing of neurons) is simulated by a rate-modulated Poisson process (upper panel). Local field potential is simulated by the low-pass filtered sum of a number of these processes, representing the mean activity of a large number of neurons (lower panel).", <i>Wikimedia Commons</i>) </br>
 </a>
 </p>
-<br></br
+</br
     
 A popular assumption is that brain activity measured with MEG/EEG is shaped as ideal sine waves. However, in line with the observations of systematic noise in the timing of 'neuronal spiking', it turns out that the brain activity measured with MEG/EEG is accurately modeled with systematic Gaussian noise in the timing of the activity ([Haumann et al., 2020](https://doi.org/10.1016/j.jneumeth.2020.108743)). 
 <br>
