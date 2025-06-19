@@ -1,7 +1,7 @@
 <h1>High-accuracy MEG/EEG diagnostics with SCA </h1>
 
-EEG and MEG can trace normal and abnormal brain development in, e.g., children. However, the accuracy of electroencephalography (EEG) and magnetoencephalography (MEG) is challenged by overlapping neural sources. 
-This lack of accuracy is a severe limitation to the application of MEG/EEG to clinical diagnostics. 
+EEG and MEG can trace the functional development of the brain, e.g., in children. 
+However, the accuracy of electroencephalography (EEG) and magnetoencephalography (MEG) is challenged by overlapping neural sources. This lack of accuracy is a severe limitation to the application of MEG/EEG to clinical diagnostics. 
 As a solution, we here introduce a spike density component analysis (SCA) method for isolating specific neural sources.
 
 Spike density component analysis (SCA) decomposes EEG or MEG waveforms into neural components modeled with temporal probability density functions (with the <a href="https://github.com/nielsthaumann/sca/blob/master/runsca.m">runsca.m</a> function). </br>
